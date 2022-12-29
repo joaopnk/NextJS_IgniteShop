@@ -10,11 +10,9 @@ export default function App({ Component, pageProps }: AppProps) {
     <Container>
       <Header>
         <Image
-          src={logoImg.src}
+          src={logoImg}
           alt="Logo IgniteShop"
           title="Logo IgniteShop"
-          width={logoImg.width}
-          height={logoImg.height}
         />
       </Header>
       <Component {...pageProps} />
